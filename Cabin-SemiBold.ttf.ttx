@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="2.4">
+  <GlyphOrder src="Cabin-SemiBold.ttf.GlyphOrder.ttx"/>
+  <head src="Cabin-SemiBold.ttf._h_e_a_d.ttx"/>
+  <hhea src="Cabin-SemiBold.ttf._h_h_e_a.ttx"/>
+  <maxp src="Cabin-SemiBold.ttf._m_a_x_p.ttx"/>
+  <OS_2 src="Cabin-SemiBold.ttf.O_S_2f_2.ttx"/>
+  <hmtx src="Cabin-SemiBold.ttf._h_m_t_x.ttx"/>
+  <LTSH src="Cabin-SemiBold.ttf.L_T_S_H_.ttx"/>
+  <VDMX src="Cabin-SemiBold.ttf.V_D_M_X_.ttx"/>
+  <hdmx src="Cabin-SemiBold.ttf._h_d_m_x.ttx"/>
+  <cmap src="Cabin-SemiBold.ttf._c_m_a_p.ttx"/>
+  <fpgm src="Cabin-SemiBold.ttf._f_p_g_m.ttx"/>
+  <prep src="Cabin-SemiBold.ttf._p_r_e_p.ttx"/>
+  <cvt src="Cabin-SemiBold.ttf._c_v_t.ttx"/>
+  <loca src="Cabin-SemiBold.ttf._l_o_c_a.ttx"/>
+  <glyf src="Cabin-SemiBold.ttf._g_l_y_f.ttx"/>
+  <kern src="Cabin-SemiBold.ttf._k_e_r_n.ttx"/>
+  <name src="Cabin-SemiBold.ttf._n_a_m_e.ttx"/>
+  <post src="Cabin-SemiBold.ttf._p_o_s_t.ttx"/>
+  <gasp src="Cabin-SemiBold.ttf._g_a_s_p.ttx"/>
+  <GPOS src="Cabin-SemiBold.ttf.G_P_O_S_.ttx"/>
+  <GSUB src="Cabin-SemiBold.ttf.G_S_U_B_.ttx"/>
+</ttFont>
