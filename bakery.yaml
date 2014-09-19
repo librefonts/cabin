@@ -1,0 +1,9 @@
+commit: HEAD
+process_files: [Cabin-Italic.ttf.ttx, Cabin-Bold.ttf.ttx, Cabin-Regular.ttf.ttx, Cabin-MediumItalic.ttf.ttx,
+  Cabin-BoldItalic.ttf.ttx, Cabin-Medium.ttf.ttx, Cabin-SemiBold.ttf.ttx, Cabin-SemiBoldItalic.ttf.ttx,
+  src/Cabin-Bold.otf.ttx, src/Cabin-SemiBold.otf.ttx, src/Cabin-Regular.otf.ttx, src/Cabin-MediumItalic.otf.ttx,
+  src/Cabin-BoldItalic.otf.ttx, src/Cabin-Medium.otf.ttx, src/Cabin-Italic.otf.ttx,
+  src/Cabin-SemiBoldItalic.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

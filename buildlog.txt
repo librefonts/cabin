@@ -1,0 +1,1324 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/cabin/METADATA.json /home/travis/build/fontdirectory/cabin/builds/build
+$ cp -a /home/travis/build/fontdirectory/cabin/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/cabin/builds/build
+$ cp -a /home/travis/build/fontdirectory/cabin/FONTLOG.txt /home/travis/build/fontdirectory/cabin/builds/build
+$ cp -a Cabin-Italic.ttf.ttx Cabin-Bold.ttf.ttx Cabin-Regular.ttf.ttx Cabin-MediumItalic.ttf.ttx Cabin-BoldItalic.ttf.ttx Cabin-Medium.ttf.ttx Cabin-SemiBold.ttf.ttx Cabin-SemiBoldItalic.ttf.ttx src/Cabin-Bold.otf.ttx src/Cabin-SemiBold.otf.ttx src/Cabin-Regular.otf.ttx src/Cabin-MediumItalic.otf.ttx src/Cabin-BoldItalic.otf.ttx src/Cabin-Medium.otf.ttx src/Cabin-Italic.otf.ttx src/Cabin-SemiBoldItalic.otf.ttx Cabin-Italic.ttf._h_m_t_x.ttx Cabin-Italic.ttf._m_a_x_p.ttx Cabin-Italic.ttf._k_e_r_n.ttx Cabin-Italic.ttf._l_o_c_a.ttx Cabin-Italic.ttf.G_P_O_S_.ttx Cabin-Italic.ttf.G_S_U_B_.ttx Cabin-Italic.ttf._p_r_e_p.ttx Cabin-Italic.ttf._h_e_a_d.ttx Cabin-Italic.ttf.L_T_S_H_.ttx Cabin-Italic.ttf.GlyphOrder.ttx Cabin-Italic.ttf._f_p_g_m.ttx Cabin-Italic.ttf.V_D_M_X_.ttx Cabin-Italic.ttf._g_l_y_f.ttx Cabin-Italic.ttf._g_a_s_p.ttx Cabin-Italic.ttf._h_d_m_x.ttx Cabin-Italic.ttf._n_a_m_e.ttx Cabin-Italic.ttf._c_m_a_p.ttx Cabin-Italic.ttf._p_o_s_t.ttx Cabin-Italic.ttf.O_S_2f_2.ttx Cabin-Italic.ttf._h_h_e_a.ttx Cabin-Italic.ttf._c_v_t.ttx Cabin-Bold.ttf._p_r_e_p.ttx Cabin-Bold.ttf._c_v_t.ttx Cabin-Bold.ttf.G_S_U_B_.ttx Cabin-Bold.ttf._h_h_e_a.ttx Cabin-Bold.ttf._n_a_m_e.ttx Cabin-Bold.ttf._k_e_r_n.ttx Cabin-Bold.ttf.G_P_O_S_.ttx Cabin-Bold.ttf.GlyphOrder.ttx Cabin-Bold.ttf._h_e_a_d.ttx Cabin-Bold.ttf.L_T_S_H_.ttx Cabin-Bold.ttf.V_D_M_X_.ttx Cabin-Bold.ttf._m_a_x_p.ttx Cabin-Bold.ttf._c_m_a_p.ttx Cabin-Bold.ttf._g_a_s_p.ttx Cabin-Bold.ttf._g_l_y_f.ttx Cabin-Bold.ttf._l_o_c_a.ttx Cabin-Bold.ttf._h_m_t_x.ttx Cabin-Bold.ttf._f_p_g_m.ttx Cabin-Bold.ttf._h_d_m_x.ttx Cabin-Bold.ttf._p_o_s_t.ttx Cabin-Bold.ttf.O_S_2f_2.ttx Cabin-Regular.ttf._g_a_s_p.ttx Cabin-Regular.ttf._k_e_r_n.ttx Cabin-Regular.ttf._h_h_e_a.ttx Cabin-Regular.ttf._p_o_s_t.ttx Cabin-Regular.ttf._h_m_t_x.ttx Cabin-Regular.ttf.G_P_O_S_.ttx Cabin-Regular.ttf.G_S_U_B_.ttx Cabin-Regular.ttf.O_S_2f_2.ttx Cabin-Regular.ttf._c_v_t.ttx Cabin-Regular.ttf._c_m_a_p.ttx Cabin-Regular.ttf._n_a_m_e.ttx Cabin-Regular.ttf._h_e_a_d.ttx Cabin-Regular.ttf._f_p_g_m.ttx Cabin-Regular.ttf._h_d_m_x.ttx Cabin-Regular.ttf.V_D_M_X_.ttx Cabin-Regular.ttf._m_a_x_p.ttx Cabin-Regular.ttf.L_T_S_H_.ttx Cabin-Regular.ttf._g_l_y_f.ttx Cabin-Regular.ttf._p_r_e_p.ttx Cabin-Regular.ttf._l_o_c_a.ttx Cabin-Regular.ttf.GlyphOrder.ttx Cabin-MediumItalic.ttf._p_o_s_t.ttx Cabin-MediumItalic.ttf._h_d_m_x.ttx Cabin-MediumItalic.ttf.G_P_O_S_.ttx Cabin-MediumItalic.ttf._n_a_m_e.ttx Cabin-MediumItalic.ttf._h_h_e_a.ttx Cabin-MediumItalic.ttf._k_e_r_n.ttx Cabin-MediumItalic.ttf._p_r_e_p.ttx Cabin-MediumItalic.ttf._c_m_a_p.ttx Cabin-MediumItalic.ttf._h_m_t_x.ttx Cabin-MediumItalic.ttf._g_l_y_f.ttx Cabin-MediumItalic.ttf._m_a_x_p.ttx Cabin-MediumItalic.ttf.GlyphOrder.ttx Cabin-MediumItalic.ttf.L_T_S_H_.ttx Cabin-MediumItalic.ttf.G_S_U_B_.ttx Cabin-MediumItalic.ttf._f_p_g_m.ttx Cabin-MediumItalic.ttf._g_a_s_p.ttx Cabin-MediumItalic.ttf._c_v_t.ttx Cabin-MediumItalic.ttf.V_D_M_X_.ttx Cabin-MediumItalic.ttf._l_o_c_a.ttx Cabin-MediumItalic.ttf.O_S_2f_2.ttx Cabin-MediumItalic.ttf._h_e_a_d.ttx Cabin-BoldItalic.ttf.G_P_O_S_.ttx Cabin-BoldItalic.ttf.L_T_S_H_.ttx Cabin-BoldItalic.ttf._g_l_y_f.ttx Cabin-BoldItalic.ttf._g_a_s_p.ttx Cabin-BoldItalic.ttf._h_e_a_d.ttx Cabin-BoldItalic.ttf.V_D_M_X_.ttx Cabin-BoldItalic.ttf._n_a_m_e.ttx Cabin-BoldItalic.ttf._p_o_s_t.ttx Cabin-BoldItalic.ttf._h_d_m_x.ttx Cabin-BoldItalic.ttf._f_p_g_m.ttx Cabin-BoldItalic.ttf.O_S_2f_2.ttx Cabin-BoldItalic.ttf._k_e_r_n.ttx Cabin-BoldItalic.ttf._m_a_x_p.ttx Cabin-BoldItalic.ttf._h_m_t_x.ttx Cabin-BoldItalic.ttf._c_v_t.ttx Cabin-BoldItalic.ttf._h_h_e_a.ttx Cabin-BoldItalic.ttf.GlyphOrder.ttx Cabin-BoldItalic.ttf._p_r_e_p.ttx Cabin-BoldItalic.ttf._c_m_a_p.ttx Cabin-BoldItalic.ttf.G_S_U_B_.ttx Cabin-BoldItalic.ttf._l_o_c_a.ttx Cabin-Medium.ttf._m_a_x_p.ttx Cabin-Medium.ttf._c_m_a_p.ttx Cabin-Medium.ttf._h_m_t_x.ttx Cabin-Medium.ttf.G_P_O_S_.ttx Cabin-Medium.ttf._h_h_e_a.ttx Cabin-Medium.ttf._g_l_y_f.ttx Cabin-Medium.ttf.L_T_S_H_.ttx Cabin-Medium.ttf.V_D_M_X_.ttx Cabin-Medium.ttf._p_o_s_t.ttx Cabin-Medium.ttf.GlyphOrder.ttx Cabin-Medium.ttf._k_e_r_n.ttx Cabin-Medium.ttf.O_S_2f_2.ttx Cabin-Medium.ttf._p_r_e_p.ttx Cabin-Medium.ttf._c_v_t.ttx Cabin-Medium.ttf._n_a_m_e.ttx Cabin-Medium.ttf._l_o_c_a.ttx Cabin-Medium.ttf._f_p_g_m.ttx Cabin-Medium.ttf._h_e_a_d.ttx Cabin-Medium.ttf._g_a_s_p.ttx Cabin-Medium.ttf.G_S_U_B_.ttx Cabin-Medium.ttf._h_d_m_x.ttx Cabin-SemiBold.ttf.G_S_U_B_.ttx Cabin-SemiBold.ttf._h_h_e_a.ttx Cabin-SemiBold.ttf._n_a_m_e.ttx Cabin-SemiBold.ttf._c_m_a_p.ttx Cabin-SemiBold.ttf.L_T_S_H_.ttx Cabin-SemiBold.ttf.V_D_M_X_.ttx Cabin-SemiBold.ttf.O_S_2f_2.ttx Cabin-SemiBold.ttf._p_o_s_t.ttx Cabin-SemiBold.ttf._c_v_t.ttx Cabin-SemiBold.ttf._h_e_a_d.ttx Cabin-SemiBold.ttf._m_a_x_p.ttx Cabin-SemiBold.ttf._g_a_s_p.ttx Cabin-SemiBold.ttf._g_l_y_f.ttx Cabin-SemiBold.ttf._p_r_e_p.ttx Cabin-SemiBold.ttf._k_e_r_n.ttx Cabin-SemiBold.ttf._h_d_m_x.ttx Cabin-SemiBold.ttf._f_p_g_m.ttx Cabin-SemiBold.ttf._h_m_t_x.ttx Cabin-SemiBold.ttf.GlyphOrder.ttx Cabin-SemiBold.ttf.G_P_O_S_.ttx Cabin-SemiBold.ttf._l_o_c_a.ttx Cabin-SemiBoldItalic.ttf._h_e_a_d.ttx Cabin-SemiBoldItalic.ttf._f_p_g_m.ttx Cabin-SemiBoldItalic.ttf.O_S_2f_2.ttx Cabin-SemiBoldItalic.ttf._c_m_a_p.ttx Cabin-SemiBoldItalic.ttf._h_d_m_x.ttx Cabin-SemiBoldItalic.ttf.GlyphOrder.ttx Cabin-SemiBoldItalic.ttf._g_a_s_p.ttx Cabin-SemiBoldItalic.ttf._k_e_r_n.ttx Cabin-SemiBoldItalic.ttf.G_S_U_B_.ttx Cabin-SemiBoldItalic.ttf._n_a_m_e.ttx Cabin-SemiBoldItalic.ttf._c_v_t.ttx Cabin-SemiBoldItalic.ttf._h_h_e_a.ttx Cabin-SemiBoldItalic.ttf.G_P_O_S_.ttx Cabin-SemiBoldItalic.ttf._p_o_s_t.ttx Cabin-SemiBoldItalic.ttf._m_a_x_p.ttx Cabin-SemiBoldItalic.ttf._g_l_y_f.ttx Cabin-SemiBoldItalic.ttf.V_D_M_X_.ttx Cabin-SemiBoldItalic.ttf._h_m_t_x.ttx Cabin-SemiBoldItalic.ttf.L_T_S_H_.ttx Cabin-SemiBoldItalic.ttf._p_r_e_p.ttx Cabin-SemiBoldItalic.ttf._l_o_c_a.ttx src/Cabin-Bold.otf._n_a_m_e.ttx src/Cabin-Bold.otf.G_P_O_S_.ttx src/Cabin-Bold.otf.O_S_2f_2.ttx src/Cabin-Bold.otf._h_e_a_d.ttx src/Cabin-Bold.otf._h_h_e_a.ttx src/Cabin-Bold.otf._m_a_x_p.ttx src/Cabin-Bold.otf._k_e_r_n.ttx src/Cabin-Bold.otf._p_o_s_t.ttx src/Cabin-Bold.otf.GlyphOrder.ttx src/Cabin-Bold.otf.G_S_U_B_.ttx src/Cabin-Bold.otf.C_F_F_.ttx src/Cabin-Bold.otf._c_m_a_p.ttx src/Cabin-Bold.otf._h_m_t_x.ttx src/Cabin-SemiBold.otf.O_S_2f_2.ttx src/Cabin-SemiBold.otf._h_e_a_d.ttx src/Cabin-SemiBold.otf._h_h_e_a.ttx src/Cabin-SemiBold.otf._m_a_x_p.ttx src/Cabin-SemiBold.otf.GlyphOrder.ttx src/Cabin-SemiBold.otf._k_e_r_n.ttx src/Cabin-SemiBold.otf._c_m_a_p.ttx src/Cabin-SemiBold.otf.C_F_F_.ttx src/Cabin-SemiBold.otf._n_a_m_e.ttx src/Cabin-SemiBold.otf.G_P_O_S_.ttx src/Cabin-SemiBold.otf.G_S_U_B_.ttx src/Cabin-SemiBold.otf._h_m_t_x.ttx src/Cabin-SemiBold.otf._p_o_s_t.ttx src/Cabin-Regular.otf._n_a_m_e.ttx src/Cabin-Regular.otf._p_o_s_t.ttx src/Cabin-Regular.otf._k_e_r_n.ttx src/Cabin-Regular.otf.O_S_2f_2.ttx src/Cabin-Regular.otf._c_m_a_p.ttx src/Cabin-Regular.otf.C_F_F_.ttx src/Cabin-Regular.otf._m_a_x_p.ttx src/Cabin-Regular.otf._h_e_a_d.ttx src/Cabin-Regular.otf.GlyphOrder.ttx src/Cabin-Regular.otf._h_h_e_a.ttx src/Cabin-Regular.otf.G_P_O_S_.ttx src/Cabin-Regular.otf.G_S_U_B_.ttx src/Cabin-Regular.otf._h_m_t_x.ttx src/Cabin-MediumItalic.otf.G_P_O_S_.ttx src/Cabin-MediumItalic.otf._p_o_s_t.ttx src/Cabin-MediumItalic.otf._h_h_e_a.ttx src/Cabin-MediumItalic.otf.C_F_F_.ttx src/Cabin-MediumItalic.otf._h_e_a_d.ttx src/Cabin-MediumItalic.otf.G_S_U_B_.ttx src/Cabin-MediumItalic.otf._h_m_t_x.ttx src/Cabin-MediumItalic.otf._c_m_a_p.ttx src/Cabin-MediumItalic.otf._m_a_x_p.ttx src/Cabin-MediumItalic.otf._k_e_r_n.ttx src/Cabin-MediumItalic.otf.O_S_2f_2.ttx src/Cabin-MediumItalic.otf.GlyphOrder.ttx src/Cabin-MediumItalic.otf._n_a_m_e.ttx src/Cabin-BoldItalic.otf._k_e_r_n.ttx src/Cabin-BoldItalic.otf._h_m_t_x.ttx src/Cabin-BoldItalic.otf.C_F_F_.ttx src/Cabin-BoldItalic.otf._m_a_x_p.ttx src/Cabin-BoldItalic.otf.O_S_2f_2.ttx src/Cabin-BoldItalic.otf.G_S_U_B_.ttx src/Cabin-BoldItalic.otf._h_h_e_a.ttx src/Cabin-BoldItalic.otf._n_a_m_e.ttx src/Cabin-BoldItalic.otf.GlyphOrder.ttx src/Cabin-BoldItalic.otf._c_m_a_p.ttx src/Cabin-BoldItalic.otf._h_e_a_d.ttx src/Cabin-BoldItalic.otf.G_P_O_S_.ttx src/Cabin-BoldItalic.otf._p_o_s_t.ttx src/Cabin-Medium.otf._h_e_a_d.ttx src/Cabin-Medium.otf._h_m_t_x.ttx src/Cabin-Medium.otf._p_o_s_t.ttx src/Cabin-Medium.otf.O_S_2f_2.ttx src/Cabin-Medium.otf._c_m_a_p.ttx src/Cabin-Medium.otf._m_a_x_p.ttx src/Cabin-Medium.otf._k_e_r_n.ttx src/Cabin-Medium.otf.GlyphOrder.ttx src/Cabin-Medium.otf.C_F_F_.ttx src/Cabin-Medium.otf.G_P_O_S_.ttx src/Cabin-Medium.otf._n_a_m_e.ttx src/Cabin-Medium.otf._h_h_e_a.ttx src/Cabin-Medium.otf.G_S_U_B_.ttx src/Cabin-Italic.otf.G_P_O_S_.ttx src/Cabin-Italic.otf._k_e_r_n.ttx src/Cabin-Italic.otf._h_m_t_x.ttx src/Cabin-Italic.otf._h_h_e_a.ttx src/Cabin-Italic.otf._h_e_a_d.ttx src/Cabin-Italic.otf._n_a_m_e.ttx src/Cabin-Italic.otf.GlyphOrder.ttx src/Cabin-Italic.otf.O_S_2f_2.ttx src/Cabin-Italic.otf.G_S_U_B_.ttx src/Cabin-Italic.otf._p_o_s_t.ttx src/Cabin-Italic.otf._m_a_x_p.ttx src/Cabin-Italic.otf.C_F_F_.ttx src/Cabin-Italic.otf._c_m_a_p.ttx src/Cabin-SemiBoldItalic.otf._c_m_a_p.ttx src/Cabin-SemiBoldItalic.otf._k_e_r_n.ttx src/Cabin-SemiBoldItalic.otf._h_e_a_d.ttx src/Cabin-SemiBoldItalic.otf._n_a_m_e.ttx src/Cabin-SemiBoldItalic.otf._h_h_e_a.ttx src/Cabin-SemiBoldItalic.otf.G_S_U_B_.ttx src/Cabin-SemiBoldItalic.otf.C_F_F_.ttx src/Cabin-SemiBoldItalic.otf._p_o_s_t.ttx src/Cabin-SemiBoldItalic.otf.O_S_2f_2.ttx src/Cabin-SemiBoldItalic.otf._m_a_x_p.ttx src/Cabin-SemiBoldItalic.otf.GlyphOrder.ttx src/Cabin-SemiBoldItalic.otf.G_P_O_S_.ttx src/Cabin-SemiBoldItalic.otf._h_m_t_x.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ bakery-lint.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.otf.ttx > fontaine.txt
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ bakery-lint.py upstream-ttx Cabin-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-MediumItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Bold.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-SemiBold.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Medium.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Regular.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-MediumItalic.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-BoldItalic.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Medium.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-Italic.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-SemiBold.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-SemiBoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.ttf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Cabin-SemiBoldItalic.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.otf.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/cabin/builds/build /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.ttx /home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.ttx
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-MediumItalic.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Medium.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Italic.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBold.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Regular.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-BoldItalic.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-SemiBoldItalic.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/cabin/builds/build/sources/Cabin-Bold.ttx" to "/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' tab$ font2ttf.py sources/Cabin-MediumItalic.otf Cabin-MediumItalic.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin Medium Italic
+Windows String: Cabin-MediumItalic
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf)
+le...
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.otf
+$ font2ttf.py sources/Cabin-Medium.otf Cabin-Medium.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin Medium
+Windows String: Cabin-Medium
+### Test Cabin-MediumItalic.ttf
+$ bakery-lint.py result Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf)
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.otf
+$ font2ttf.py sources/Cabin-Italic.otf Cabin-Italic.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin Italic
+Windows String: Cabin-Italic
+### Test Cabin-Medium.ttf
+$ bakery-lint.py result Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf)
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.otf
+### Test Cabin-Italic.ttf
+$ bakery-lint.py result Cabin-Italic.ttf
+$ font2ttf.py sources/Cabin-Regular.otf Cabin-Regular.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin Regular
+Windows String: Cabin-Regular
+### Test Cabin-SemiBold.ttf
+$ bakery-lint.py result Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf)
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.otf
+$ font2ttf.py sources/Cabin-BoldItalic.otf Cabin-BoldItalic.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin Bold Italic
+Windows String: Cabin-BoldItalic
+### Test Cabin-Regular.ttf
+$ bakery-lint.py result Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf)
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.otf
+$ font2ttf.py sources/Cabin-SemiBoldItalic.otf Cabin-SemiBoldItalic.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin SemiBold Italic
+Windows String: Cabin-SemiBoldItalic
+### Test Cabin-BoldItalic.ttf
+$ bakery-lint.py result Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf)
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.otf
+$ font2ttf.py sources/Cabin-Bold.otf Cabin-Bold.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cabin Bold
+Windows String: Cabin-Bold
+### Test Cabin-SemiBoldItalic.ttf
+$ bakery-lint.py result Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf)
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.otf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+### Test Cabin-Bold.ttf
+$ bakery-lint.py result Cabin-Bold.ttf
+### (5 of 6) Generate METADATA.json (genmetadata.py)
+$ genmetadata.py /home/travis/build/fontdirectory/cabin/builds/build
+{} exists
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+Designer's name from font is: Pablo Impallari
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Original size: 45984\nGzip size: 20927
+Family Name: Cabin
+PS Name: Cabin-MediumItalic
+Full Name: Cabin-MediumItalic
+Style: normal
+Weight: 500
+Filename: Cabin-MediumItalic.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-BoldItalic
+Full Name: Cabin-BoldItalic
+Style: normal
+Weight: 700
+Filename: Cabin-BoldItalic.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-Regular
+Full Name: Cabin-Regular
+Style: normal
+Weight: 400
+Filename: Cabin-Regular.ttf
+Copyright: Copyright (c) 2010 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-Italic
+Full Name: Cabin-Italic
+Style: normal
+Weight: 400
+Filename: Cabin-Italic.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-SemiBold
+Full Name: Cabin SemiBold
+Style: normal
+Weight: 600
+Filename: Cabin-SemiBold.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-Medium
+Full Name: Cabin-Medium
+Style: normal
+Weight: 500
+Filename: Cabin-Medium.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-Bold
+Full Name: Cabin-Bold
+Style: normal
+Weight: 700
+Filename: Cabin-Bold.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+Family Name: Cabin
+PS Name: Cabin-SemiBoldItalic
+Full Name: Cabin-SemiBoldItalic
+Style: normal
+Weight: 600
+Filename: Cabin-SemiBoldItalic.ttf
+Copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved.
+### (6 of 6) Run tests for METADATA.json
+$ bakery-lint.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+### Optimize TTF Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ ls -l 'Cabin-MediumItalic.ttf'* # look at the size savings of that subset process
+Cabin-MediumItalic.ttf.opt: 40964 bytes
+Cabin-MediumItalic.ttf: 43476 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+### Autohint TTFs (ttfautohint) Cabin-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf: 40964 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.autohint.ttf: 59000 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+### Subset TTFs (pyftsubset) Cabin-MediumItalic.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+### Optimize TTF Cabin-SemiBold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+### Optimize TTF Cabin-Medium.ttf
+### Optimize TTF Cabin-Italic.ttf
+### Optimize TTF Cabin-Regular.ttf
+$ ls -l 'Cabin-SemiBold.ttf'* # look at the size savings of that subset process
+Cabin-SemiBold.ttf.opt: 170104 bytes
+Cabin-SemiBold.ttf: 172840 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+### Autohint TTFs (ttfautohint) Cabin-SemiBold.ttf
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf: 170104 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.autohint.ttf: 113944 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+### Subset TTFs (pyftsubset) Cabin-SemiBold.ttf
+$ ls -l 'Cabin-Italic.ttf'* # look at the size savings of that subset process
+Cabin-Italic.ttf.opt: 41212 bytes
+Cabin-Italic.ttf: 43724 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+### Autohint TTFs (ttfautohint) Cabin-Italic.ttf
+$ ls -l 'Cabin-Medium.ttf'* # look at the size savings of that subset process
+Cabin-Medium.ttf.opt: 43436 bytes
+Cabin-Medium.ttf: 45968 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+### Autohint TTFs (ttfautohint) Cabin-Medium.ttf
+$ ls -l 'Cabin-Regular.ttf'* # look at the size savings of that subset process
+Cabin-Regular.ttf.opt: 43712 bytes
+Cabin-Regular.ttf: 46264 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+### Autohint TTFs (ttfautohint) Cabin-Regular.ttf
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf: 41212 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.autohint.ttf: 58936 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+### Subset TTFs (pyftsubset) Cabin-Italic.ttf
+Generate Cabin-MediumItalic.latin
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf: 43436 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.autohint.ttf: 60336 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+### Subset TTFs (pyftsubset) Cabin-Medium.ttf
+Generate Cabin-MediumItalic.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-MediumItalic.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-MediumItalic.ttf.fix made with spaceWidth and nbspWidth of 225
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf: 43712 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.autohint.ttf: 60320 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+### Subset TTFs (pyftsubset) Cabin-Regular.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+Generate Cabin-SemiBold.latin
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+### Optimize TTF Cabin-BoldItalic.ttf
+Generate Cabin-Italic.latin
+Generate Cabin-SemiBold.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBold.ttf
+$ ls -l 'Cabin-BoldItalic.ttf'* # look at the size savings of that subset process
+Cabin-BoldItalic.ttf.opt: 41064 bytes
+Cabin-BoldItalic.ttf: 43592 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Cabin-BoldItalic.ttf
+Generate Cabin-Italic.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Italic.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-Italic.ttf.fix made with spaceWidth and nbspWidth of 225
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf: 41064 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.autohint.ttf: 58604 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Cabin-BoldItalic.ttf
+Generate Cabin-Medium.latin
+Generate Cabin-Regular.latin
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+Generate Cabin-BoldItalic.latin
+Generate Cabin-Regular.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Regular.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-Regular.ttf.fix made with spaceWidth and nbspWidth of 225
+Generate Cabin-Medium.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Medium.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-Medium.ttf.fix made with spaceWidth and nbspWidth of 225
+Generate Cabin-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-BoldItalic.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-BoldItalic.ttf.fix made with spaceWidth and nbspWidth of 225
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+### Optimize TTF Cabin-Bold.ttf
+$ ls -l 'Cabin-Bold.ttf'* # look at the size savings of that subset process
+Cabin-Bold.ttf.opt: 42364 bytes
+Cabin-Bold.ttf: 44892 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+### Autohint TTFs (ttfautohint) Cabin-Bold.ttf
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf: 42364 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.autohint.ttf: 59204 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+### Subset TTFs (pyftsubset) Cabin-Bold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+Generate Cabin-Bold.latin
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.fix /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_postScriptName_matches_ttf_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+### Optimize TTF Cabin-SemiBoldItalic.ttf
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+Generate Cabin-Bold.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-Bold.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-Bold.ttf.fix made with spaceWidth and nbspWidth of 225
+$ ls -l 'Cabin-SemiBoldItalic.ttf'* # look at the size savings of that subset process
+Cabin-SemiBoldItalic.ttf.opt: 40912 bytes
+Cabin-SemiBoldItalic.ttf: 43424 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf.opt /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+### Autohint TTFs (ttfautohint) Cabin-SemiBoldItalic.ttf
+$ ls -l /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf: 40912 bytes
+/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.autohint.ttf: 58828 bytes
+$ mv /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.autohint.ttf /home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+### Subset TTFs (pyftsubset) Cabin-SemiBoldItalic.ttf
+Generate Cabin-SemiBoldItalic.latin
+Generate Cabin-SemiBoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/cabin/builds/build/Cabin-SemiBoldItalic.ttf
+No nbsp glyph
+spaceWidth is    225
+nbspWidth is     0
+Cabin-SemiBoldItalic.ttf.fix made with spaceWidth and nbspWidth of 225
+{
+  "name": "Cabin", 
+  "designer": "Pablo Impallari", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Sans Serif", 
+  "size": 85829, 
+  "fonts": [
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-MediumItalic", 
+      "fullName": "Cabin-MediumItalic", 
+      "style": "normal", 
+      "weight": 500, 
+      "filename": "Cabin-MediumItalic.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-BoldItalic", 
+      "fullName": "Cabin-BoldItalic", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Cabin-BoldItalic.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-Regular", 
+      "fullName": "Cabin-Regular", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Cabin-Regular.ttf", 
+      "copyright": "Copyright (c) 2010 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-Italic", 
+      "fullName": "Cabin-Italic", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Cabin-Italic.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-SemiBold", 
+      "fullName": "Cabin SemiBold", 
+      "style": "normal", 
+      "weight": 600, 
+      "filename": "Cabin-SemiBold.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-Medium", 
+      "fullName": "Cabin-Medium", 
+      "style": "normal", 
+      "weight": 500, 
+      "filename": "Cabin-Medium.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-Bold", 
+      "fullName": "Cabin-Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Cabin-Bold.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }, 
+    {
+      "name": "Cabin", 
+      "postScriptName": "Cabin-SemiBoldItalic", 
+      "fullName": "Cabin-SemiBoldItalic", 
+      "style": "normal", 
+      "weight": 600, 
+      "filename": "Cabin-SemiBoldItalic.ttf", 
+      "copyright": "Copyright (c) 2011 by Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com. All rights reserved."
+    }
+  ], 
+  "subsets": [
+    "latin"
+  ], 
+  "dateAdded": "2011-03-23"
+}
